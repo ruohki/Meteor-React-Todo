@@ -9,7 +9,6 @@ export const CreateTodo: React.FC<CreateTodoProps> = (props) => {
 
   return ( 
     <form
-      className="createTodo"
       onSubmit={e => {
         e.preventDefault();
         if (description.length > 0) {
